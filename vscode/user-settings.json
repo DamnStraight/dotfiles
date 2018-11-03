@@ -1,0 +1,43 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "editor.wordWrap": "on",
+    "workbench.editor.tabSizing": "shrink",
+    "html.format.enable": true,
+    "html.format.preserveNewLines": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "workbench.iconTheme": "file-icons-colourless",
+    "editor.fontFamily": "'Operator Mono Lig'",
+    "editor.fontLigatures": true,
+    "editor.rulers": [80, 100, 120],
+    "breadcrumbs.enabled": true,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.DS_Store": true,
+      "**/.zip": true
+    },
+    "editor.snippetSuggestions": "top",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+      "editor.formatOnSave": false
+    },
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "code-runner.executorMap": {
+        "kotlin": "cd $dir && C:\\Compiler\\Kotlin\\bin\\kotlinc.bat $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar"
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "bracketPairColorizer.consecutivePairColors": [
+      "()",
+      "[]",
+      "{}",
+      ["#fd971f", "#F92672", "#66D9EF"],
+      "Red"
+    ],
