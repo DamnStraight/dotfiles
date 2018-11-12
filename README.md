@@ -4,4 +4,4 @@ A collection of my config files and useful resources gathered while browsing the
 
 - [VSCode](vscode/README.md)
 - [Hyper Terminal](hyper/README.md)
-- [List of useful resources](resources/resources.md)
+- [List of useful resources](resources/README.md)
