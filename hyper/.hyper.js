@@ -165,8 +165,8 @@ module.exports = {
   plugins: [
     'hyperborder',
     'hyper-tabs-enhanced',
+    'hyper-final-say',
     'hyper-statusline',
-    'hyper-final-say'
   ],
 
   // in development, you can create a directory under
