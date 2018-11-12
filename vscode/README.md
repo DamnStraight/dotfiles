@@ -1,3 +1,13 @@
+# VSCode
+
+![Visual Studio Code](../images/vscode.png)
+
+## Theme
+
+- [Monokai Pro](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) - Hands down the best looking theme. Comes with a variety of choices. (Note: Has a popup if you don't purchase a license)
+
+## Everything Else
+
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
@@ -19,7 +29,6 @@
 - [Kotlin Language](https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin)
 - [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java)
 - [language-stylus](https://marketplace.visualstudio.com/items?itemName=sysoev.language-stylus)
-- [Monokai Pro](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode)
 - [Mustache](https://marketplace.visualstudio.com/items?itemName=dawhite.mustache)
 - [Open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 - [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
