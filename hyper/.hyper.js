@@ -1,3 +1,7 @@
+// Future versions of Hyper may add additional config options,
+// which will not automatically be merged into this file.
+// See https://hyper.is#cfg for all currently supported options.
+
 module.exports = {
   config: {
     // choose either `'stable'` for receiving highly polished,
@@ -40,7 +44,7 @@ module.exports = {
 
     // border color (window, tabs)
     // borderColor: '#333',
-    borderColor: '#ff00aa',
+    borderColor: 'linear-gradient(to bottom, #ff00aa 0%,#ffa200 100%)',
 
     // custom CSS to embed in the main window
     css: '',
@@ -63,7 +67,25 @@ module.exports = {
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
     // an array here instead of a color map object
-    colors: { // Monokai Colors
+    // colors: {
+    //   black: '#000000',
+    //   red: '#C51E14',
+    //   green: '#1DC121',
+    //   yellow: '#C7C329',
+    //   blue: '#0A2FC4',
+    //   magenta: '#C839C5',
+    //   cyan: '#20C5C6',
+    //   white: '#C7C7C7',
+    //   lightBlack: '#686868',
+    //   lightRed: '#FD6F6B',
+    //   lightGreen: '#67F86F',
+    //   lightYellow: '#FFFA72',
+    //   lightBlue: '#6A76FB',
+    //   lightMagenta: '#FD7CFC',
+    //   lightCyan: '#68FDFE',
+    //   lightWhite: '#FFFFFF',
+    // },
+    colors: {
       black: '#000000',
       red: '#F92672',
       green: '#A6E22E',
@@ -130,7 +152,8 @@ module.exports = {
       tabiconsColored: true,
       trafficButtons: false,
       closeAlign: 'right'
-    }
+    },
+    selectionColor: 'rgba(49, 50, 41, 0.4)',
   },
 
   // a list of plugins to fetch and install from npm
