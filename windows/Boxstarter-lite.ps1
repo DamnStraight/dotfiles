@@ -1,11 +1,5 @@
 # Description: Boxstarter Script
-# Author: Rich Turner <rich@bitcrazed.com>
-# Last Updated: 2018-10-26
-#
-# Run this Boxstarter by calling the following from an **ELEVATED PowerShell instance**:
-#     `set-executionpolicy Unrestricted`
-#     `. { iwr -useb https://boxstarter.org/bootstrapper.ps1 } | iex; get-boxstarter -Force`
-#     `Install-BoxstarterPackage -DisableReboots -PackageName <URL-TO-RAW-GIST>`
+# Gist modified from https://gist.github.com/bitcrazed/c788f9dcf1d630340a19
 
 #---- TEMPORARY ---
 Disable-UAC
@@ -99,13 +93,12 @@ foreach ($app in $applicationList) {
     choco install keepassxc
     choco install imageglass
     choco install qbittorrent
-
-#--- Spyware ---
-    choco install discord
-    choco install pia
-    choco install logitechgaming
-    choco install steam
     choco install f.lux
+    choco install pia
+
+#--- Botnet ---
+    choco install discord
+    choco install steam
 
 #--- Media ---
     choco install streamlink
