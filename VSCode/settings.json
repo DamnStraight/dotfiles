@@ -1,0 +1,124 @@
+{
+  // General config & behavior
+  "explorer.compactFolders": false,
+  "telemetry.telemetryLevel": "off",
+  "editor.fontLigatures": true,
+  "editor.letterSpacing": 0.1,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', 'Dank Mono', 'Operator Mono Lig', Lilex, Consolas",
+  "editor.fontSize": 16,
+  // Appearance
+  "workbench.colorTheme": "Monokai Pro",
+  "workbench.colorCustomizations": {
+    "editorInlayHint.background": "#272822",
+    "editorInlayHint.foreground": "#fdfff1",
+    "statusBar.background": "#1A1A1A",
+    "statusBar.noFolderBackground": "#212121",
+    "statusBar.debuggingBackground": "#263238",
+    "[Monokai Classic]": {
+      "editorInlayHint.foreground": "#6E7066"
+    }
+  },
+  "workbench.iconTheme": "file-icons-colourless",
+  // Language rules & config
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "[javascript]": {
+    "editor.rulers": [80, 100],
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.rulers": [80, 100],
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.rulers": [80, 100],
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  // Better Comments extension
+  "better-comments.tags": [
+    {
+      "tag": "FIXME",
+      "color": "#ff6188",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "!",
+      "color": "#ff6188",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "REVIEW",
+      "color": "#78dce8",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "?",
+      "color": "#78dce8",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//",
+      "color": "#908e8f",
+      "strikethrough": true,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "TODO",
+      "color": "#ffd866",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "NOTE",
+      "color": "#a9dc76",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "*",
+      "color": "#a9dc76",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    }
+  ],
+  // Comment 6 extension
+  "comment.fancy": true,
+  "comment.ornament": "✣",
+  // VSCode Vibrancy extension (Disable when not on Mac)
+  "terminal.integrated.gpuAcceleration": "off",
+  "vscode_vibrancy.opacity": 0.1,
+  // Enable when using VSCode Neovim extension
+  "editor.lineNumbers": "relative"
+}
