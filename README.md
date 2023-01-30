@@ -11,7 +11,7 @@
 - Node Version Manager: [fnm](https://github.com/Schniz/fnm)
 - Shell: [zsh](https://www.zsh.org/)
 - Screenshots: [Shottr](https://shottr.cc/)
-- Audio Utility: [BackgroundMusic](whttps://github.com/kyleneideck/BackgroundMusic)
+- Audio Utility: [BackgroundMusic](https://github.com/kyleneideck/BackgroundMusic)
 - Keyboard Customization: [Karabiner-elements](https://github.com/pqrs-org/Karabiner-Elements)
 - Application Launcher: [Raycast](https://www.raycast.com/)
 - Password Manager: [Keepassxc](https://keepassxc.org/)
@@ -20,6 +20,6 @@
 - Terminal: [Windows Terminal](https://github.com/microsoft/terminal)
 - Editor: [Neovim](https://neovim.io/) / [VSCode](https://code.visualstudio.com/) *(WSL extension doesn't worth with VSCodium)*
 - Browser: [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) / [LibreWolf](https://librewolf.net/)
-- Firewall: [simplewall](https://github.com/henrypp/simplewall)
+- Firewall: [simplewall](https://github.com/henrypp/simplewall) *(Blocks some Microsoft telemetry)*
 - Application Launcher: [Microsoft PowerToys](https://github.com/microsoft/PowerToys)
 - Password Manager: [Keepassxc](https://keepassxc.org/)
