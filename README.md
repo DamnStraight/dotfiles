@@ -13,9 +13,13 @@
 - Screenshots: [Shottr](https://shottr.cc/)
 - Audio Utility: [BackgroundMusic](whttps://github.com/kyleneideck/BackgroundMusic)
 - Keyboard Customization: [Karabiner-elements](https://github.com/pqrs-org/Karabiner-Elements)
-## Windows (WIP):
+- Application Launcher: [Raycast](https://www.raycast.com/)
+- Password Manager: [Keepassxc](https://keepassxc.org/)
+## Windows:
 - Package manager: [Winget](https://github.com/microsoft/winget-cli)
 - Terminal: [Windows Terminal](https://github.com/microsoft/terminal)
 - Editor: [Neovim](https://neovim.io/) / [VSCode](https://code.visualstudio.com/) *(WSL extension doesn't worth with VSCodium)*
 - Browser: [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) / [LibreWolf](https://librewolf.net/)
 - Firewall: [simplewall](https://github.com/henrypp/simplewall)
+- Application Launcher: [Microsoft PowerToys](https://github.com/microsoft/PowerToys)
+- Password Manager: [Keepassxc](https://keepassxc.org/)
