@@ -1,5 +1,7 @@
 # DamnStraight's dotfiles
 
+![Mac Desktop Screenshot](screenshot.png)
+
 # Software
 ## Mac:
 - Tiling manager: [yabai](https://github.com/koekeishiya/yabai)
