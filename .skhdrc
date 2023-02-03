@@ -63,3 +63,11 @@ shift + alt - left   : yabai -m window --grid 1:2:0:0:1:1
 
 # make floating window fill right-half of screen
 shift + alt - right  : yabai -m window --grid 1:2:1:0:1:1
+
+# application shortcuts
+hyper - f : open -a finder
+hyper - m : open -a Music
+hyper - t : open -a 'Alacritty.app'
+hyper - v : open -a 'VSCodium.app'
+hyper - w : open -a 'Chromium.app'
+hyper - d : open -a 'Discord.app'
