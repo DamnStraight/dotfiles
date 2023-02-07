@@ -19,6 +19,7 @@
 - Password Manager: [Keepassxc](https://keepassxc.org/)
 - Unarchiver: [Keka](https://github.com/aonez/Keka)
 - SDK Manager: [SDKMAN!](https://sdkman.io/)
+- Status bar: [sketchybar](https://github.com/FelixKratz/SketchyBar)
 ## Windows:
 - Package manager: [Winget](https://github.com/microsoft/winget-cli)
 - Terminal: [Windows Terminal](https://github.com/microsoft/terminal)

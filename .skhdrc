@@ -71,3 +71,11 @@ hyper - t : open -a 'Alacritty.app'
 hyper - v : open -a 'VSCodium.app'
 hyper - w : open -a 'Chromium.app'
 hyper - d : open -a 'Discord.app'
+
+# toggle sketchybar and adjust top padding accordingly
+hyper - 1 : sketchybar --bar hidden=on;\
+            yabai -m config top_padding 15
+
+hyper - 2 : sketchybar --bar hidden=off;\
+            yabai -m config top_padding 68;\
+            yabai -m space 1 --padding rel:-37:0:0:0

@@ -28,12 +28,20 @@ yabai -m config mouse_drop_action swap
 
 # general space settings
 yabai -m config layout bsp
-yabai -m config --space 4 layout float
-yabai -m config top_padding 15
 yabai -m config bottom_padding 15
 yabai -m config left_padding 15
 yabai -m config right_padding 15
 yabai -m config window_gap 15
+
+# sketchybar enabled (creates a padding of 15 between yabai and sketchybar)
+yabai -m config top_padding 68
+yabai -m space 1 --padding rel:-37:0:0:0
+
+# sketchybar disabled
+# yabai -m config top_padding 15
+
+# have 4th desktop behave normally
+# yabai -m config --space 4 layout float
 
 # apps to not manage (ignore)
 yabai -m rule --add app="^System Settings$" manage=off
@@ -44,3 +52,11 @@ yabai -m rule --add app="PlayCover" manage=off
 yabai -m rule --add app="^Simulator" manage=off
 yabai -m rule --add app="^Path to" manage=off
 yabai -m rule --add app="^IINA$" manage=off
+yabai -m rule --add app="^Shottr$" manage=off
+
+# enable yabai functionality within sketchybar
+yabai -m signal --add event=window_focused action="sketchybar --trigger window_focus"
+yabai -m signal --add event=window_created action="sketchybar --trigger windows_on_spaces"
+yabai -m signal --add event=window_destroyed action="sketchybar --trigger windows_on_spaces"
+
+echo "yabai configuration loaded.."
