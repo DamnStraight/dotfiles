@@ -8,7 +8,7 @@
   "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', 'Dank Mono', 'Operator Mono Lig', Lilex, Consolas",
   "editor.fontSize": 16,
   // Appearance
-  "workbench.colorTheme": "Monokai Pro",
+  "workbench.colorTheme": "Gruvchad",
   "workbench.colorCustomizations": {
     "editorInlayHint.background": "#272822",
     "editorInlayHint.foreground": "#fdfff1",
@@ -63,6 +63,7 @@
     "typescriptreact"
   ],
   // Better Comments extension
+  // Monokai Colors - TODO Update to Gruvchad
   "better-comments.tags": [
     {
       "tag": "FIXME",
@@ -116,9 +117,15 @@
   // Comment 6 extension
   "comment.fancy": true,
   "comment.ornament": "✣",
-  // VSCode Vibrancy extension (Disable when not on Mac)
-  "terminal.integrated.gpuAcceleration": "off",
-  "vscode_vibrancy.opacity": 0.1,
-  // Enable when using VSCode Neovim extension
-  "editor.lineNumbers": "relative"
+  // background extension
+  "background.enabled": true,
+  "background.fullscreen": {
+    "images": [
+      "file:///C:/Users/Steven/Documents/Git/dotfiles/kirino_dark.png",
+    ],
+    "opacity": 0.91,
+    "size": "cover",
+    "position": "center",
+    "interval": 60
+  },
 }
