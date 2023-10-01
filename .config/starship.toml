@@ -4,144 +4,169 @@
 # Inserts a blank line between shell prompts
 add_newline = true
 
+format = """
+$all\
+$directory$character
+"""
+
+# right_format = """
+# $time
+# """
+
+[fill]
+symbol = " "
+
+[time]
+style = "purple"
+format = "[$time]($style)"
+disabled = true
+time_format = "%d/%m/%y %I:%M:%S %p"
+
 # Replace the 'Γ¥»' symbol in the prompt with 'Γ₧£'
 [character] # The name of the module we are configuring is 'character'
-success_symbol = '[Γ₧£](bold green)' # The 'success_symbol' segment is being set to 'Γ₧£' with the color 'bold green'
+success_symbol = '[>](bold cyan)' # The 'success_symbol' segment is being set to 'Γ₧£' with the color 'bold green'
+format = '$symbol '
 
-# Use Nerd Fonts
+[username]
+show_always = true
+format = "[$user](cyan) "
+
 [aws]
-symbol = "  "
+symbol = "εî╜  "
 
 [buf]
-symbol = " "
+symbol = "∩Æ¥ "
 
 [c]
-symbol = " "
+symbol = "εÿ₧ "
 
 [conda]
-symbol = " "
+symbol = "∩äî "
 
 [dart]
-symbol = " "
+symbol = "ε₧ÿ "
 
 [directory]
-read_only = " 󰌾"
+read_only = " ≤░î╛"
+style = "green"
+format = "[$path]($style)"
 
 [docker_context]
-symbol = " "
+symbol = "∩îê "
 
 [elixir]
-symbol = " "
+symbol = "εë╡ "
 
 [elm]
-symbol = " "
+symbol = "εÿ¼ "
 
 [fossil_branch]
-symbol = " "
+symbol = "∩Éÿ "
 
 [git_branch]
-symbol = " "
+symbol = "∩Éÿ "
+format = "on [$symbol$branch(:$remote_branch)]($style) "
 
 [golang]
-symbol = " "
+symbol = "εÿº "
 
 [guix_shell]
-symbol = " "
+symbol = "∩îÑ "
 
 [haskell]
-symbol = " "
+symbol = "ε¥╖ "
 
 [haxe]
-symbol = " "
+symbol = "εÖª "
 
 [hg_branch]
-symbol = " "
+symbol = "∩Éÿ "
 
 [hostname]
-ssh_symbol = " "
+ssh_symbol = "ε¼ü "
 
 [java]
-symbol = " "
+symbol = "εëû "
 
 [julia]
-symbol = " "
+symbol = "εÿñ "
 
 [lua]
-symbol = " "
+symbol = "εÿá "
 
 [memory_usage]
-symbol = "󰍛 "
+symbol = "≤░ì¢ "
 
 [meson]
-symbol = "󰔷 "
+symbol = "≤░ö╖ "
 
 [nim]
-symbol = "󰆥 "
+symbol = "≤░åÑ "
 
 [nix_shell]
-symbol = " "
+symbol = "∩îô "
 
 [nodejs]
-symbol = " "
+symbol = "ε£ÿ "
 
 [os.symbols]
-Alpaquita = " "
-Alpine = " "
-Amazon = " "
-Android = " "
-Arch = " "
-Artix = " "
-CentOS = " "
-Debian = " "
-DragonFly = " "
-Emscripten = " "
-EndeavourOS = " "
-Fedora = " "
-FreeBSD = " "
-Garuda = "󰛓 "
-Gentoo = " "
-HardenedBSD = "󰞌 "
-Illumos = "󰈸 "
-Linux = " "
-Mabox = " "
-Macos = " "
-Manjaro = " "
-Mariner = " "
-MidnightBSD = " "
-Mint = " "
-NetBSD = " "
-NixOS = " "
-OpenBSD = "󰈺 "
-openSUSE = " "
-OracleLinux = "󰌷 "
-Pop = " "
-Raspbian = " "
-Redhat = " "
-RedHatEnterprise = " "
-Redox = "󰀘 "
-Solus = "󰠳 "
-SUSE = " "
-Ubuntu = " "
-Unknown = " "
-Windows = "󰍲 "
+Alpaquita = "ε¬ó "
+Alpine = "∩îÇ "
+Amazon = "∩ë░ "
+Android = "∩à╗ "
+Arch = "∩îâ "
+Artix = "∩îƒ "
+CentOS = "∩îä "
+Debian = "∩îå "
+DragonFly = "εèÄ "
+Emscripten = "∩êà "
+EndeavourOS = "∩åù "
+Fedora = "∩îè "
+FreeBSD = "∩îî "
+Garuda = "≤░¢ô "
+Gentoo = "∩îì "
+HardenedBSD = "≤░₧î "
+Illumos = "≤░ê╕ "
+Linux = "∩îÜ "
+Mabox = "ε¼⌐ "
+Macos = "∩îé "
+Manjaro = "∩îÆ "
+Mariner = "∩çì "
+MidnightBSD = "∩åå "
+Mint = "∩îÄ "
+NetBSD = "∩Çñ "
+NixOS = "∩îô "
+OpenBSD = "≤░ê║ "
+openSUSE = "∩îö "
+OracleLinux = "≤░î╖ "
+Pop = "∩î¬ "
+Raspbian = "∩îò "
+Redhat = "∩îû "
+RedHatEnterprise = "∩îû "
+Redox = "≤░Çÿ "
+Solus = "≤░á│ "
+SUSE = "∩îö "
+Ubuntu = "∩î¢ "
+Unknown = "∩ê¡ "
+Windows = "≤░ì▓ "
 
 [package]
-symbol = "󰏗 "
+symbol = "≤░Åù "
 
 [pijul_channel]
-symbol = " "
+symbol = "∩Éÿ "
 
 [python]
-symbol = " "
+symbol = "εê╡ "
 
 [rlang]
-symbol = "󰟔 "
+symbol = "≤░ƒö "
 
 [ruby]
-symbol = " "
+symbol = "ε₧æ "
 
 [rust]
-symbol = " "
+symbol = "ε₧¿ "
 
 [scala]
-symbol = " "
+symbol = "ε£╖ "
