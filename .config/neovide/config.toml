@@ -1,0 +1,3 @@
+multigrid = false
+srgp = true
+frame = "Buttonless"

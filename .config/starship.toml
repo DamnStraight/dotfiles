@@ -31,142 +31,142 @@ format = '$symbol '
 show_always = true
 format = "[$user](cyan) "
 
-[aws]
-symbol = "εî╜  "
-
-[buf]
-symbol = "∩Æ¥ "
-
-[c]
-symbol = "εÿ₧ "
-
-[conda]
-symbol = "∩äî "
-
-[dart]
-symbol = "ε₧ÿ "
-
 [directory]
-read_only = " ≤░î╛"
+read_only = " 󰌾"
 style = "green"
 format = "[$path]($style)"
 
-[docker_context]
-symbol = "∩îê "
-
-[elixir]
-symbol = "εë╡ "
-
-[elm]
-symbol = "εÿ¼ "
-
-[fossil_branch]
-symbol = "∩Éÿ "
-
 [git_branch]
-symbol = "∩Éÿ "
+symbol = " "
 format = "on [$symbol$branch(:$remote_branch)]($style) "
 
+[aws]
+symbol = "  "
+
+[buf]
+symbol = " "
+
+[c]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[fossil_branch]
+symbol = " "
+
 [golang]
-symbol = "εÿº "
+symbol = " "
 
 [guix_shell]
-symbol = "∩îÑ "
+symbol = " "
 
 [haskell]
-symbol = "ε¥╖ "
+symbol = " "
 
 [haxe]
-symbol = "εÖª "
+symbol = " "
 
 [hg_branch]
-symbol = "∩Éÿ "
+symbol = " "
 
 [hostname]
-ssh_symbol = "ε¼ü "
+ssh_symbol = " "
 
 [java]
-symbol = "εëû "
+symbol = " "
 
 [julia]
-symbol = "εÿñ "
+symbol = " "
 
 [lua]
-symbol = "εÿá "
+symbol = " "
 
 [memory_usage]
-symbol = "≤░ì¢ "
+symbol = "󰍛 "
 
 [meson]
-symbol = "≤░ö╖ "
+symbol = "󰔷 "
 
 [nim]
-symbol = "≤░åÑ "
+symbol = "󰆥 "
 
 [nix_shell]
-symbol = "∩îô "
+symbol = " "
 
 [nodejs]
-symbol = "ε£ÿ "
+symbol = " "
 
 [os.symbols]
-Alpaquita = "ε¬ó "
-Alpine = "∩îÇ "
-Amazon = "∩ë░ "
-Android = "∩à╗ "
-Arch = "∩îâ "
-Artix = "∩îƒ "
-CentOS = "∩îä "
-Debian = "∩îå "
-DragonFly = "εèÄ "
-Emscripten = "∩êà "
-EndeavourOS = "∩åù "
-Fedora = "∩îè "
-FreeBSD = "∩îî "
-Garuda = "≤░¢ô "
-Gentoo = "∩îì "
-HardenedBSD = "≤░₧î "
-Illumos = "≤░ê╕ "
-Linux = "∩îÜ "
-Mabox = "ε¼⌐ "
-Macos = "∩îé "
-Manjaro = "∩îÆ "
-Mariner = "∩çì "
-MidnightBSD = "∩åå "
-Mint = "∩îÄ "
-NetBSD = "∩Çñ "
-NixOS = "∩îô "
-OpenBSD = "≤░ê║ "
-openSUSE = "∩îö "
-OracleLinux = "≤░î╖ "
-Pop = "∩î¬ "
-Raspbian = "∩îò "
-Redhat = "∩îû "
-RedHatEnterprise = "∩îû "
-Redox = "≤░Çÿ "
-Solus = "≤░á│ "
-SUSE = "∩îö "
-Ubuntu = "∩î¢ "
-Unknown = "∩ê¡ "
-Windows = "≤░ì▓ "
+Alpaquita = " "
+Alpine = " "
+Amazon = " "
+Android = " "
+Arch = " "
+Artix = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = "󰛓 "
+Gentoo = " "
+HardenedBSD = "󰞌 "
+Illumos = "󰈸 "
+Linux = " "
+Mabox = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+OpenBSD = "󰈺 "
+openSUSE = " "
+OracleLinux = "󰌷 "
+Pop = " "
+Raspbian = " "
+Redhat = " "
+RedHatEnterprise = " "
+Redox = "󰀘 "
+Solus = "󰠳 "
+SUSE = " "
+Ubuntu = " "
+Unknown = " "
+Windows = "󰍲 "
 
 [package]
-symbol = "≤░Åù "
+symbol = "󰏗 "
 
 [pijul_channel]
-symbol = "∩Éÿ "
+symbol = " "
 
 [python]
-symbol = "εê╡ "
+symbol = " "
 
 [rlang]
-symbol = "≤░ƒö "
+symbol = "󰟔 "
 
 [ruby]
-symbol = "ε₧æ "
+symbol = " "
 
 [rust]
-symbol = "ε₧¿ "
+symbol = " "
 
 [scala]
-symbol = "ε£╖ "
+symbol = " "

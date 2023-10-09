@@ -5,6 +5,12 @@ M.mappings = require "custom.mappings"
 
 M.ui = {
     theme = 'gruvchad',
+    hl_override = {
+      CursorLine = {
+        bg = "#45413d",
+        blend = 10,
+      },
+    },
     transparency = true,
 
     nvdash = {
@@ -23,6 +29,11 @@ M.ui = {
         { "  Mappings", "Spc c h", "NvCheatsheet" },
         },
     },
+  statusline = {
+    theme = "default",
+    separator_style = "default",
+    overriden_modules = nil,
+  },
 }
 
 M.plugins = "custom.plugins"
