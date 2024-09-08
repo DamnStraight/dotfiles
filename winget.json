@@ -1,0 +1,104 @@
+{
+    "$schema": "https://aka.ms/winget-packages.schema.1.0.json",
+    "WinGetVersion": "0.3.11201",
+    "Sources": [
+        {
+            "Packages": [
+                {
+                    "Id": "ShareX.ShareX",
+                    "Version": "16.1.0"
+                },
+                {
+                    "Id": "File-New-Project.EarTrumpet",
+                    "Version": "2.2.2.0"
+                },
+                {
+                    "Id": "Playnite.Playnite",
+                    "Version": "10.34"
+                },
+                {
+                    "Id": "Zen-Team.Zen-Browser",
+                    "Version": "1.0.0-a.33"
+                },
+                {
+                    "Id": "eloston.ungoogled-chromium",
+                    "Version": "128.0.6613.84"
+                },
+                {
+                    "Id": "glzr-io.glazewm",
+                    "Version": "3.1.1"
+                },
+                {
+                    "Id": "Henry++.simplewall",
+                    "Version": "3.8.2"
+                },
+                {
+                    "Id": "KeePassXCTeam.KeePassXC",
+                    "Version": "2.7.9"
+                },
+                {
+                    "Id": "PrestonN.FreeTube",
+                    "Version": "0.21.3"
+                },
+                {
+                    "Id": "ChatterinoTeam.Chatterino",
+                    "Version": "2.5.1"
+                },
+                {
+                    "Id": "HandBrake.HandBrake",
+                    "Version": "1.8.1"
+                },
+                {
+                    "Id": "Meltytech.Shotcut",
+                    "Version": "24.08.29"
+                },
+                {
+                    "Id": "LocalSend.LocalSend",
+                    "Version": "1.15.4"
+                },
+                {
+                    "Id": "MullvadVPN.MullvadVPN",
+                    "Version": "2024.3"
+                },
+                {
+                    "Id": "jurplel.qView",
+                    "Version": "6.1"
+                },
+                {
+                    "Id": "qBittorrent.qBittorrent",
+                    "Version": "4.6.6"
+                },
+                {
+                    "Id": "MusicBee.MusicBee",
+                    "Version": "3.5.8447"
+                },
+                {
+                    "Id": "Microsoft.PowerShell",
+                    "Version": "7.4.5.0"
+                },
+                {
+                    "Id": "M2Team.NanaZip",
+                    "Version": "3.1.1080.0"
+                },
+                {
+                    "Id": "SumatraPDF.SumatraPDF",
+                    "Version": "3.5.2"
+                },
+                {
+                    "Id": "Valve.Steam",
+                    "Version": "2.10.91.91"
+                },
+                {
+                    "Id": "Obsidian.Obsidian",
+                    "Version": "1.6.7"
+                }
+            ],
+            "SourceDetails": {
+                "Argument": "https://winget.azureedge.net/cache",
+                "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+                "Name": "winget",
+                "Type": "Microsoft.PreIndexed.Package"
+            }
+        }
+    ]
+}

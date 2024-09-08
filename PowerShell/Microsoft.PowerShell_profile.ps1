@@ -1,5 +1,5 @@
-# Fast Node Manager
-fnm env --use-on-cd | Out-String | Invoke-Expression
+# Aliases
+New-Alias gdl gallery-dl
 
 # Zoxide
 Invoke-Expression (& { (zoxide init powershell | Out-String) })
