@@ -28,6 +28,32 @@ local plugins = {
     'RRethy/vim-illuminate',
     event = { 'BufReadPost', 'BufNewFile' }
   },
+  {
+    -- Open Yazi in Neovim
+    "mikavilpas/yazi.nvim",
+    event = "VeryLazy",
+    keys = {
+      {
+        "<leader>v",
+        "<cmd>Yazi<cr>",
+        desc = "Open yazi at the current file",
+      },
+      {
+        -- Open in the current working directory
+        "<leader>cw",
+        "<cmd>Yazi cwd<cr>",
+        desc = "Open the file manager in nvim's working directory",
+      },
+    },
+    opts = {
+      use_ya_for_events_reading = true,
+      use_yazi_client_id_flag = true,
+
+      keymaps = {
+        show_help = "~",
+      },
+    },
+  },
 }
 
 return plugins
