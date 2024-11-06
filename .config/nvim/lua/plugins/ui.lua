@@ -14,15 +14,15 @@ local plugins = {
     dependencies = {
       "MunifTanjim/nui.nvim",
       -- OPTIONAL:
-      "rcarriga/nvim-notify",
+      -- "rcarriga/nvim-notify",
     }
   },
-  {
-    -- Color nested brackets with different colors
-    'hiphish/rainbow-delimiters.nvim',
-    event = 'BufReadPost',
-    -- config = require "configs.rainbow-delimeters"
-  },
+  -- {
+  --   -- Color nested brackets with different colors
+  --   'hiphish/rainbow-delimiters.nvim',
+  --   event = 'BufReadPost',
+  --   -- config = require "configs.rainbow-delimeters"
+  -- },
   {
     -- Highlight usages of the word under the cursor
     'RRethy/vim-illuminate',
@@ -53,6 +53,17 @@ local plugins = {
         show_help = "~",
       },
     },
+  },
+  -- file managing , picker etc
+  {
+    "nvim-tree/nvim-tree.lua",
+    cmd = { "NvimTreeToggle", "NvimTreeFocus" },
+    opts = {
+      renderer = {
+        root_folder_label = ":~:s?$?",
+        -- root_folder_label = ":~:s?$?/..?",
+      }
+    }
   },
 }
 

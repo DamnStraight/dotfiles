@@ -4,6 +4,10 @@ local plugins = {
     'danilamihailov/beacon.nvim',
     event = "VeryLazy"
   },
+  {
+    'tpope/vim-surround',
+    event = 'VeryLazy'
+  }
 }
 
 return plugins

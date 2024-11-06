@@ -1,7 +1,7 @@
 -- Plugins that help with learning Neovim
 local plugins = {
   {
-    -- 
+    -- Highlights unique characters in each word when using f/F
     'jinh0/eyeliner.nvim',
     event = "VeryLazy",
     config = function()
